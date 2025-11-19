@@ -13,9 +13,9 @@ def load_key():
     key_str = base64.urlsafe_b64encode(key).decode('utf-8')
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    email = "sougatachongder5@gmail.com"
+    email = "sender_email"
     password = "your_app_password"
-    to_email = "sougatachongder8@gmail.com"  
+    to_email = "reciever_email"  
     subject = "Encryption Key"
     body = f"Your encryption key: {key_str}\n\nKeep this safe!"
     
