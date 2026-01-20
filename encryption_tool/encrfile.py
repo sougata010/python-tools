@@ -1,5 +1,4 @@
 from cryptography.fernet import Fernet
-import os
 from datetime import datetime
 import os
 import platform
